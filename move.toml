@@ -1,0 +1,17 @@
+[package]
+name = "art-gen"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+MyModule = "0xb0a93e937e2aea8cec03509b62b585bcf2d46f145df522c64d0d10325ba23909"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
